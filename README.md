@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ♿️ Tokenized Donations for Para-Sports Associations
 
-## Getting Started
 
-First, run the development server:
+
+
+
+
+A Web3-powered dApp built on the Chiliz Chain that enables fans and supporters to donate CHZ tokens to para-sports associations, with transparent distribution, locked incentives, and community-driven rewards.
+
+
+
+
+
+## 🎯 Purpose
+
+
+
+
+
+This project aims to support inclusive sports through a gamified donation model. Fans can fund their favorite teams and receive meaningful, non-financial rewards if their team performs well.
+
+
+
+
+
+## 🔁 How It Works
+
+
+
+
+
+1. **Users donate CHZ** to the association of their choice via the dApp.
+
+
+2. The donation is **automatically split**:
+
+
+   - 🟢 **50%**: Directly sent to the chosen association (immediate funding).
+
+
+   - 🟡 **30%**: Locked in a smart contract as **non-cash benefits** (e.g. merch credit, ticket access).
+
+
+   - 🔴 **20%**: Added to a **reward pool** shared later.
+
+
+
+
+
+3. At the end of a tournament:
+
+
+   - The **winning association** receives the **20% reward pool**.
+
+
+   - The merch funded from that pool is **sent to donors as rewards**.
+
+
+   - The 30% benefit remains redeemable only **within the ecosystem** (not cashable).
+
+
+
+
+
+## ⚙️ Tech Stack
+
+
+
+
+
+- **Frontend**: Next.js (with TypeScript)
+
+
+- **Blockchain**: Chiliz Chain (EVM-compatible)
+
+
+- **Wallet**: MetaMask
+
+
+- **Smart Contracts**: Solidity (donation routing, incentive locking, reward distribution)
+
+
+- **Web3 Library**: Web3.js or ethers.js
+
+
+
+
+
+## 🔐 Key Features
+
+
+
+
+
+- Transparent, on-chain donation and distribution logic
+
+
+- Donor benefits without monetary gain (non-profit compliant)
+
+
+- Incentivized engagement through locked ecosystem rewards
+
+
+- Tournament-based reward mechanism
+
+
+- Designed for real-world impact in inclusive sports
+
+
+
+
+
+## 🚀 Getting Started
+
+
+
+
 
 ```bash
+
+
+# Install dependencies
+
+
+npm install
+
+
+
+
+
+# Run the development server
+
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
